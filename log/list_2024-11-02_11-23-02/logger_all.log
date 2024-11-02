@@ -1,0 +1,134 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/diego/ros2/ros2_cerrito']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/diego/ros2/ros2_cerrito'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78f2c5f1ac50>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x78f2c5f19cc0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x78f2c5f19cc0>>, mixin_verb=('list',))
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.297s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/diego/ros2/ros2_cerrito'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/log) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_firmware) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package '/home/diego/ros2/ros2_cerrito/src/cerrito_firmware' with type 'ros.ament_python' and name 'cerrito_firmware'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/include) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/lib) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/src) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(/home/diego/ros2/ros2_cerrito/src/cerrito_platformio/arduino_wifi/test) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
